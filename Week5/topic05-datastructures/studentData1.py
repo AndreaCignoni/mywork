@@ -7,17 +7,16 @@ student2 = {
     "Name":" ",
     "modules": [
     {
-        "courseName":" ",
-        "grade": " "
+        "courseName":" History ",
+        "grade": "68"
     },
     {
-        "courseName":" ",
-        "grade":" "
+        "courseName":"Maths ",
+        "grade":"53 "
     }
     ]
 }
-user = input("Enter a name: ")
-student2 ["Name "]= user
-print ("Student: {student2}").format(student["name"])
+student2 = input("Enter a name: ")
+print ("Student: ", student2 ).format(student["name"])
 for module in student ["modules"]:
     print("\t {} \t: {}".format(module["courseName"], module["grade"]))
