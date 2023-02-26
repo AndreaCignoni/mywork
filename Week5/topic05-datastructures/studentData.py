@@ -3,9 +3,8 @@
 # Author: Andrea Cignoni
 
 student = {
-    "name":"Mary"
+    "name":"Mary",
     "modules":[
-    # I don't understand column is not accepted and returns error
     {
         "courseName":"Programming",
         "grade":45
